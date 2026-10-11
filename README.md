@@ -37,7 +37,7 @@ O acesso HTTP exige token explícito via cabeçalho Authorization. Se o secret n
 
 ## CI / deploy
 
-O workflow `.github/workflows/qa.yml` roda **somente quando disparado manualmente** em Actions → Manual QA → Run workflow. Não existem triggers push, pull_request ou schedule. O deploy de produção será configurado **apenas no Cloudflare, branch main**; não há GitHub workflow de deploy.
+O workflow `.github/workflows/qa.yml` roda quando um PR é aberto ou quando executado manualmente em Actions → Manual QA → Run workflow. Não há triggers de push, novos commits (synchronize) ou schedule. O deploy de produção será configurado **apenas no Cloudflare, branch main**; não há GitHub workflow de deploy.
 
 ## Estrutura
 
