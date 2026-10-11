@@ -1,5 +1,9 @@
 # Artisys Video Studio
 
+## Teste gratuito de geração (Colab)
+
+[Abra o notebook do piloto de 5 segundos](notebooks/01_primeiro_video_gratis.ipynb) e consulte as [instruções para Colab](notebooks/README.md). Usa CogVideoX-2B (Apache 2.0), sem API paga, Cloudflare, deploy ou GPU local. O modelo é text-to-video e a execução real depende de GPU gratuita disponível; **renderização ainda não testada no Colab**.
+
 P0 + P1: painel de projetos e storyboard com React, TypeScript e Cloudflare Workers (D1 + R2). Sem serviços de IA pagos nem renderização real nesta etapa.
 
 ## Funcionalidades
