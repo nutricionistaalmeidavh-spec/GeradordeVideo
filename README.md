@@ -2,6 +2,10 @@
 
 ## Teste gratuito de geração (Colab)
 
+### V2 — imagem para vídeo com Wan 2.2
+
+[Abra o notebook V2](notebooks/02_animar_imagem_wan22.ipynb) ou veja o [passo a passo V2](notebooks/V2_LEIA_ME.md). Permite importar um personagem já desenhado, animá-lo em GPU gratuita (se disponível), visualizar e salvar MP4. Pesa cerca de 17 GB em modelos; T4 pode falhar por limite de memória ou sessão. A execução real da V2 ainda não foi validada em GPU.
+
 [Abra o notebook do piloto de 5 segundos](notebooks/01_primeiro_video_gratis.ipynb) e consulte as [instruções para Colab](notebooks/README.md). Usa CogVideoX-2B (Apache 2.0), sem API paga, Cloudflare, deploy ou GPU local. O modelo é text-to-video e a execução real depende de GPU gratuita disponível; **renderização ainda não testada no Colab**.
 
 P0 + P1: painel de projetos e storyboard com React, TypeScript e Cloudflare Workers (D1 + R2). Sem serviços de IA pagos nem renderização real nesta etapa.
