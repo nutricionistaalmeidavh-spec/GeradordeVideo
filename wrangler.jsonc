@@ -1,0 +1,10 @@
+{
+  // Create the D1 database and R2 bucket first; replace the ID with the actual D1 ID.
+  // Never set secrets here. Use "wrangler secret put STUDIO_ADMIN_TOKEN".
+  "name": "geradordevideo",
+  "main": "src/worker.ts",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./dist", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
+  "d1_databases": [{ "binding": "DB", "database_name": "artisys-video-db", "database_id": "REPLACE_WITH_ACTUAL_D1_DATABASE_ID", "migrations_dir": "migrations" }],
+  "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "artisys-video-media" }]
+}
